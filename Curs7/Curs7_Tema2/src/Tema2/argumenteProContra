@@ -1,0 +1,12 @@
+Adnotari
+pro - mult mai rapid si simplu, concis si lizibil nu mai trebuie configurat fisierul xml manual, la fel si pentru hooks
+     - type safety mai bun
+contra - lipseste separarea configurarii de cod
+       - externalizare limitata
+XML
+pro - separare mai buna a configurarii de codul Java, poate fi util cand exista persoane diferite
+care se ocupa de configurare vs de codul din clase;
+    -configurarea e externalizata se poate fi util
+in cazurile in care este nevoie sa schimbi foarte des configurarea bean-urilor
+
+contra - mult mai multe cuvinte si sintaxa complicata, anumite erori pot aparea doar la runtime
