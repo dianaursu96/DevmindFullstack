@@ -1,2 +1,6 @@
-package annotationField;public interface ITeacher {
+package annotationField;
+
+public interface ITeacher {
+    String getHomework();
+
 }

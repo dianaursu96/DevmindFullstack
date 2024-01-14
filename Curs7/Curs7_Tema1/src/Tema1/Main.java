@@ -1,10 +1,13 @@
 package Tema1;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Tema1/applicationContext.xml");
+       // ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("Tema1/applicationContext.xml");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+
 
         Traffic traffic = context.getBean("traffic", Traffic.class);
         traffic.hello();
@@ -16,5 +19,7 @@ public class Main {
         Motor motor = new Motor(5, "lala", 9);
         motor.setNume("TSI");
         System.out.println(motor.getNume());
+
+
     }
 }

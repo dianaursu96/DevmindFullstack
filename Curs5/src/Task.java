@@ -1,5 +1,5 @@
-import com.sun.security.jgss.GSSUtil;
-
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.Random;
 
 public class Task {
@@ -17,12 +17,15 @@ public class Task {
     public static int generateID() {
         return random.nextInt(Integer.MAX_VALUE);
     }
+    @PostConstruct
     private void init() {
         numberOfTasks++;
         taskId = generateID();
         taskName = "Task" + taskId;
         executionTime = random.nextInt(21);
     }
+
+    @PreDestroy
     private void destroy() {
         System.out.println("Task with the taskId " + taskId + " was destroyed");
         numberOfTasks--;

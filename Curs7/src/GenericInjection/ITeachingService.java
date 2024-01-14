@@ -1,2 +1,5 @@
-package GenericInjection;public interface ITeachingService {
+package GenericInjection;
+
+public interface ITeachingService {
+    String teachSomething();
 }

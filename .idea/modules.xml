@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Curs1/Curs1.iml" filepath="$PROJECT_DIR$/Curs1/Curs1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs2/Curs2.iml" filepath="$PROJECT_DIR$/Curs2/Curs2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs3/Curs3.iml" filepath="$PROJECT_DIR$/Curs3/Curs3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs5/Curs5.iml" filepath="$PROJECT_DIR$/Curs5/Curs5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs6/Curs6.iml" filepath="$PROJECT_DIR$/Curs6/Curs6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs7/Curs7.iml" filepath="$PROJECT_DIR$/Curs7/Curs7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs7/Curs7_Tema1/Curs7_Tema1.iml" filepath="$PROJECT_DIR$/Curs7/Curs7_Tema1/Curs7_Tema1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs7/Curs7_Tema2/Curs7_Tema2.iml" filepath="$PROJECT_DIR$/Curs7/Curs7_Tema2/Curs7_Tema2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs8/Curs8.iml" filepath="$PROJECT_DIR$/Curs8/Curs8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevmindFullstack.iml" filepath="$PROJECT_DIR$/DevmindFullstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs6/Tema1/Tema1.iml" filepath="$PROJECT_DIR$/Curs6/Tema1/Tema1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs6/Tema2/Tema2.iml" filepath="$PROJECT_DIR$/Curs6/Tema2/Tema2.iml" />
+    </modules>
+  </component>
+</project>

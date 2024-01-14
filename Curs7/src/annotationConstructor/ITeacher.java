@@ -1,4 +1,4 @@
-package annotation;
+package annotationConstructor;
 
 public interface ITeacher {
     String getHomework();

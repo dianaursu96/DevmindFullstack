@@ -1,9 +1,8 @@
 package annotation;
 
-import annotation.ITeacher;
 import org.springframework.stereotype.Component;
 
-@Component("ourOwnDevTeacher")
+// @Component("ourOwnDevTeacher")
 public class WebDevTeacher implements ITeacher {
     @Override
     public String getHomework() {

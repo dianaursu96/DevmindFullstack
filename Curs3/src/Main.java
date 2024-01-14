@@ -1,10 +1,12 @@
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 public class Main {
     public static void main(String[] args) {
         // load the Spring configuration file
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
+       // ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("appContext.xml");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
 
         // retrieve bean from Spring container
         IAnimal theAnimal1 = context.getBean("myDog", IAnimal.class);

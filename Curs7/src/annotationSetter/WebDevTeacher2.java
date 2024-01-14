@@ -1,13 +1,10 @@
 package annotationSetter;
 
-import annotationConstructor.FrameworkKnowledge;
-import annotationConstructor.ITeacher;
-import annotationConstructor.TipsAndTricksService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
-public class WebDevTeacher implements ITeacher {
+@Component ("webDevTeacher2")
+public class WebDevTeacher2 implements ITeacher {
     FrameworkKnowledge frameworkKnowledge;
     TipsAndTricksService tipsAndTricksService;
     @Autowired

@@ -1,2 +1,7 @@
-package annotationSetter;public interface ITeacher {
+package annotationSetter;
+
+public interface ITeacher {
+    String getHomework();
+
 }
+

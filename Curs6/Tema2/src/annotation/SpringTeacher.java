@@ -2,7 +2,7 @@ package annotation;
 
 import org.springframework.stereotype.Component;
 
-@Component
+// @Component
 public class SpringTeacher implements ITeacher {
     @Override
     public String getHomework() {

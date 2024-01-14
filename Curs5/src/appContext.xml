@@ -6,7 +6,7 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="singletonBean"
-          class="Curs.MyBean"
+          class="Tema2.MyBean"
           scope="singleton">
     </bean>
 
